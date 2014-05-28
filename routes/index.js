@@ -11,7 +11,7 @@ router.get('/', function(req, res) {
   res.render('index', {
     jsSrc: jsSrc,
     cssSrc: cssSrc,
-    title: 'Doorsteps Node Bootstrap'
+    title: 'Node Express Bootstrap'
   });
 });
 
