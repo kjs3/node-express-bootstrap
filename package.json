@@ -1,0 +1,38 @@
+{
+  "name": "node-express-bootstrap",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=production node ./bin/www"
+  },
+  "engines": {
+    "node": "~0.10.0",
+    "npm": "~1.4.3"
+  },
+  "dependencies": {
+    "express": "~4.0.0",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "bower": "^1.3.2",
+    "nodemon": "^1.0.17",
+    "jade": "~1.3.0",
+    "gulp": "^3.6.0",
+    "gulp-changed": "^0.3.0",
+    "gulp-uglify": "^0.2.1",
+    "gulp-concat": "^2.2.0",
+    "gulp-clean": "^0.2.4",
+    "gulp-minify-css": "^0.3.1",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-sass": "^0.7.1",
+    "gulp-buster": "^0.2.1"
+  },
+  "devDependencies": {
+    "tiny-lr": "^0.0.5",
+    "connect-livereload": "^0.4.0",
+    "gulp-livereload": "^1.3.1",
+    "gulp-nodemon": "^1.0.2"
+  }
+}
