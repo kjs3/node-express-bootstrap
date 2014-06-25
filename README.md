@@ -55,3 +55,18 @@ The Express route uses a library to get those fingerprinted filenames from ./cac
 These vars are then used in the Jade template link tags to link to the fingerprinted file.
 
 This process happens automatically with the `gulp watch` task.
+
+### Running on Heroku?
+
+A Gulp task and Procfile are included for deploying/running on Heroku.
+
+Add the following config vars to your app
+
+```
+BUILDPACK_URL=https://github.com/timdp/heroku-buildpack-nodejs-gulp.git
+NODE_ENV=production
+npm_config_production=false
+```
+
+When you push to Heroku the 'heroku:production' Gulp task will be run which in turn just runs the 'cache-bust' task that fingerprints css/js files.
+
