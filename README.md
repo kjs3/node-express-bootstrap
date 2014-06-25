@@ -28,8 +28,8 @@ Remove `node_modules` and `bower_components` from `.gitignore` if you want to tr
 ### Getting up and running
 
 ```
+npm install -g gulp bower
 npm install
-npm install -g gulp
 bower install
 gulp
 ```
